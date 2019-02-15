@@ -1,5 +1,3 @@
-GAME:PIRATE WARS
-===
 INTRODUCTION
 ===
 This project aims to establish a game platform named "Pirate Wars" by module pygame in python. The game rule is that players move the pirate ship through the left and right keys on the keyboard. In addition, they destroy the enemy ships by launching bullets through the space bar until they finally meet the octopus monster. Once players defeat the monster by shooting bullets, it shows that they win the game. However, if the pirate ship collides with the enemy ship, it will show the end of the game.
@@ -17,7 +15,7 @@ Game Loop
 * set up refreshing frame rate
 * events monitor
 * collision checking
-* Update/draw sprite group
+* update/draw sprite group
 * update screen display
 
 TODO
@@ -27,7 +25,7 @@ Sprites and Sprite Group
 * define sprites subclass 
 * define derive sprite subclass
 
-Construct Game Frame
+Build Game Structure
 ---
 * game initialization
 * establish window screen by constant 
@@ -68,3 +66,13 @@ Last Monster
 * define monster’s class
 * add and monitor the fire time of the monster
 * add and monitor game winning time
+
+Plan
+===
+week 4: proposal of the project
+week 5: build game structure and define sprites and sprite goup
+week 6 ~ week 7: create the pirate ship and enemies with bullets launched
+week 8 ~ week 9: create the last boss(octopus monster) with fire
+week 10 ~ week 11: establish collision mode
+week 12 ~ week 13: improve and check the whole program
+week 14 ~ week 15: submit the final program

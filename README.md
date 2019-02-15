@@ -13,7 +13,7 @@ Game Initialization
 Game Loop
 ---
 * set up refreshing frame rate
-* events monitor
+* monitor events
 * collision checking
 * update/draw sprite group
 * update screen display
@@ -69,10 +69,11 @@ Last Monster
 
 Plan
 ===
-week 4: proposal of the project
-week 5: build game structure and define sprites and sprite goup
-week 6 ~ week 7: create the pirate ship and enemies with bullets launched
-week 8 ~ week 9: create the last boss(octopus monster) with fire
-week 10 ~ week 11: establish collision mode
-week 12 ~ week 13: improve and check the whole program
-week 14 ~ week 15: submit the final program
+week 1 ~week 3: prepare for the program<br>
+week 4: proposal of the project<br>
+week 5: build game structure and define sprites and sprite goup<br>
+week 6 ~ week 7: create the pirate ship and enemies with bullets launched<br>
+week 8 ~ week 9: create the last boss(octopus monster) with fire<br>
+week 10 ~ week 11: establish collision mode<br>
+week 12 ~ week 13: improve and check the whole program<br>
+week 14 ~ week 15: submit the final program<br>

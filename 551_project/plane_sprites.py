@@ -47,7 +47,7 @@ class Background(GameSprite):
     """Background Sprite"""
     def __init__(self,is_alt= False):
         # 1.Call Father class init
-        super().__init__('./551_project/picture/background4.png')
+        super().__init__('./picture/background4.png')
         # Judge whether it is the same picture. If so, set the initial location
         if is_alt:
             self.rect.x = -self.rect.width
@@ -67,7 +67,7 @@ class Enemy(GameSprite):
     def __init__(self):
 
         #1.Call Father class init,set image and speed
-        super().__init__('./551_project/picture/ufo1.png')
+        super().__init__('./picture/ufo1.png')
         #2.set random speed
         self.speed = random.randint(1,6)
         #3.set random location
@@ -90,7 +90,7 @@ class Enemy(GameSprite):
         #enemy explosion
         if self.explode_index!= 0 and self.explode_index <  4:
             new_rect = self.rect
-            super().__init__('./551_project/picture/bomb1%d.png'% self.explode_index)
+            super().__init__('./picture/bomb1%d.png'% self.explode_index)
             self.explode_index += 1
             self.rect = new_rect
 
@@ -130,7 +130,7 @@ class Hero(GameSprite):
         # Explosion
         if self.mainexplode_index !=0 and self.mainexplode_index <4:
             new_rect = self.rect
-            super().__init__('./551_project/picture/bomb1%d.png'% self.mainexplode_index)
+            super().__init__('./picture/bomb1%d.png'% self.mainexplode_index)
             self.rect.centerx = new_rect.centerx
             self.rect.bottom = new_rect.bottom
             self.mainexplode_index += 1
@@ -152,7 +152,7 @@ class Bullet(GameSprite):
     """Bullet Sprite"""
     def __init__(self):
         # Call Father class init,set image and speed
-        super().__init__('./551_project/images/bullet1.png',-2)
+        super().__init__('./images/bullet1.png',-2)
 
     def update(self):
         # Call Father class update
@@ -170,7 +170,7 @@ class Boss(GameSprite):
     """
     def __init__(self):
         # 1.Call Father class init,set image
-        super().__init__('./551_project/picture/thanos1.png')
+        super().__init__('./picture/thanos1.png')
         # 2.Set initial location
         self.rect.centerx = SCREEN_RECT.centerx
         self.rect.top = SCREEN_RECT.top+20
@@ -201,7 +201,7 @@ class Boss(GameSprite):
         # boss explosion
         if self.bossexplode_index !=0 and self.bossexplode_index < 7:
             new_rect = self.rect
-            super().__init__('./551_project/picture/bossbomb%d.png' % self.bossexplode_index)
+            super().__init__('./picture/bossbomb%d.png' % self.bossexplode_index)
             self.rect.centerx = new_rect.centerx
             self.rect.bottom = new_rect.bottom
             self.bossexplode_index += 1

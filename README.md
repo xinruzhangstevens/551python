@@ -84,3 +84,11 @@ Game Screen
 Start
 ---
 ![snip](https://github.com/xinruzhangstevens/AVENGERS-WAR/blob/master/551%20project/picture/Start%20Page.png)
+
+Game_Over
+---
+![snip](https://github.com/xinruzhangstevens/AVENGERS-WAR/blob/master/551%20project/picture/Lose%20the%20game.png)
+
+Game_Win
+---
+![snip](https://github.com/xinruzhangstevens/AVENGERS-WAR/blob/master/551%20project/picture/Win%20the%20game.png)

@@ -44,19 +44,19 @@ class AvengersWar(object):
             pygame.key.get_mods()
             self.screen.blit(game_font_over.render(u'AvengersWar' , True, [255, 0, 0]), [450, 100])
             self.screen.blit(game_font_start.render(u'Choose your favorite superhero' , True, [0, 255, 0]), [400, 250])
-            bg = pygame.image.load("./picture/spiderman11.png")
+            bg = pygame.image.load("./551_project/picture/spiderman11.png")
             self.screen.blit(game_font_start.render(u'Press 1' , True, [0, 255, 0]), [300, 400])
-            bg1 = pygame.image.load("./picture/ironmanm.png")
+            bg1 = pygame.image.load("./551_project/picture/ironmanm.png")
             self.screen.blit(game_font_start.render(u'Press 2' , True, [0, 255, 0]), [900, 400])
 
             self.screen.blit(bg, (150, 300))
             self.screen.blit(bg1, (750, 300))
             pygame.display.update()
             if keys_pressed[pygame.K_1]:
-                path = "./picture/spiderman11.png"
+                path = "./551_project/picture/spiderman11.png"
                 break
             if keys_pressed[pygame.K_2]:
-                path = "./picture/ironmanm.png"
+                path = "./551_project/picture/ironmanm.png"
                 break
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:

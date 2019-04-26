@@ -4,7 +4,7 @@ class test_AvengersWar(object):
         self.test__create__sprites()
 
     def test__create__sprites(self):
-        self.hero = Hero('.\picture\spiderman11.png')
+        self.hero = Hero("./551_project/picture/spiderman11.png")
         self.hero_group = pygame.sprite.Group(self.hero)
 
     def test_move(self):

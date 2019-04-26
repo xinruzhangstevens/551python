@@ -130,7 +130,7 @@ class Hero(GameSprite):
         # Explosion
         if self.mainexplode_index !=0 and self.mainexplode_index <4:
             new_rect = self.rect
-            super().__init__('./551_project/picture/bomb1%d.png'% self.mainexplode_index)
+            super().__init__('./picture/bomb1%d.png'% self.mainexplode_index)
             self.rect.centerx = new_rect.centerx
             self.rect.bottom = new_rect.bottom
             self.mainexplode_index += 1
@@ -218,6 +218,7 @@ class Weapon(GameSprite):
     """weapon sprite"""
     def __init__(self):
         super().__init__('./images/weapon.png',10)
+        
     def update(self):
         super().update()
         if self.rect.y>SCREEN_RECT.height:

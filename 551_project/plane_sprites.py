@@ -217,12 +217,9 @@ class Boss(GameSprite):
 class Weapon(GameSprite):
     """weapon sprite"""
     def __init__(self):
-<<<<<<< HEAD
+
         super().__init__('./images/weapon.png',10)
         
-=======
-        super().__init__('./picture/weapon.png',10)
->>>>>>> 7e7f493267f8a22025806a6c4eaea0e8856ec82c
     def update(self):
         super().update()
         if self.rect.y>SCREEN_RECT.height:

@@ -14,9 +14,9 @@ CREATE_BOSS_EVENT =pygame.USEREVENT+2
 # Bubble timer
 CREATE_BUBBLE_EVENT = pygame.USEREVENT +3
 # Bullet_hit_boss
-BULLET_HIT_BOSS_TIMES = 20
+BULLET_HIT_BOSS_TIMES = 120
 # Boss blood
-HPFULL = 500
+HPFULL = 10000
 # Enemy_hit_dict
 enemy_hit_dict = dict()
 
@@ -186,6 +186,7 @@ class Boss(GameSprite):
 
     def update(self):
         self.rect.x +=self.speed
+        self.speed +=2
         if self.rect.x < 0 :
             self.rect.x = 0
             self.speed=-self.speed

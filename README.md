@@ -64,7 +64,7 @@ Collision Check
 
 Last Boss
 ---
-* define monster’s class
+* define boss’s class
 * add and monitor the fire time of the monster
 * add and monitor game winning time
 
@@ -73,8 +73,14 @@ Plan
 week 1 ~week 3: prepare for the program<br>
 week 4: proposal of the project<br>
 week 5: build game structure and define sprites and sprite goup<br>
-week 6 ~ week 7: create the pirate ship and enemies with bullets launched<br>
+week 6 ~ week 7: create the superhero and enemies with bullets launched<br>
 week 8 ~ week 9: create the last boss with fire<br>
 week 10 ~ week 11: establish collision mode<br>
 week 12 ~ week 13: improve and check the whole program<br>
 week 14 ~ week 15: submit the final program<br>
+
+Game Screen
+===
+Start
+---
+![snip](https://github.com/xinruzhangstevens/AVENGERS-WAR/blob/master/551%20project/picture/Start%20Page.png)

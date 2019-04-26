@@ -22,7 +22,7 @@ class AvengersWar(object):
         # 4.Set timer events
         pygame.time.set_timer(CREATE_ENEMY_EVENT,1500)
         pygame.time.set_timer(HERO_FIRE_EVENT,600)
-        pygame.time.set_timer(CREATE_BOSS_EVENT,5000)
+        pygame.time.set_timer(CREATE_BOSS_EVENT,15000)
         pygame.time.set_timer(CREATE_BUBBLE_EVENT,5000)
 
     def create_background(self):

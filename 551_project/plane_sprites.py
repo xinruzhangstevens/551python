@@ -219,7 +219,7 @@ class Weapon(GameSprite):
     """weapon sprite"""
     def __init__(self):
 
-        super().__init__('./images/weapon.png',10)
+        super().__init__('./picture/weapon.png',10)
         
     def update(self):
         super().update()
